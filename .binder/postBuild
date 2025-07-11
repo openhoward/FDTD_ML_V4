@@ -18,4 +18,5 @@ conda create -n mp -c conda-forge python=3.10 pymeep ipykernel -y
 
 # 啟動並註冊 Jupyter kernel
 conda activate mp
+pip install autograd
 python -m ipykernel install --user --name=mp --display-name "Python (mp)"
